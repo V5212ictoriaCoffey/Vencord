@@ -22,7 +22,8 @@
     "watch": "node scripts/build/build.mjs --watch",
     "watchWeb": "node scripts/build/buildWeb.mjs --watch",
     "clean": "rm -rf dist",
-    "rebuild": "pnpm clean && pnpm build"
+    "rebuild": "pnpm clean && pnpm build",
+    "dev": "node scripts/build/build.mjs --watch"
   },
   "dependencies": {
     "@vap/core": "0.0.12",
