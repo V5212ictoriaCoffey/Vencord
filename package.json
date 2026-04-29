@@ -21,7 +21,8 @@
     "testTsc": "tsc --noEmit",
     "watch": "node scripts/build/build.mjs --watch",
     "watchWeb": "node scripts/build/buildWeb.mjs --watch",
-    "clean": "rm -rf dist"
+    "clean": "rm -rf dist",
+    "rebuild": "pnpm clean && pnpm build"
   },
   "dependencies": {
     "@vap/core": "0.0.12",
