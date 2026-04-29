@@ -20,7 +20,8 @@
     "test": "pnpm lint && pnpm testTsc",
     "testTsc": "tsc --noEmit",
     "watch": "node scripts/build/build.mjs --watch",
-    "watchWeb": "node scripts/build/buildWeb.mjs --watch"
+    "watchWeb": "node scripts/build/buildWeb.mjs --watch",
+    "clean": "rm -rf dist"
   },
   "dependencies": {
     "@vap/core": "0.0.12",
