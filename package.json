@@ -23,7 +23,8 @@
     "watchWeb": "node scripts/build/buildWeb.mjs --watch",
     "clean": "rm -rf dist",
     "rebuild": "pnpm clean && pnpm build",
-    "dev": "node scripts/build/build.mjs --watch"
+    "dev": "node scripts/build/build.mjs --watch",
+    "typecheck": "tsc --noEmit --pretty"
   },
   "dependencies": {
     "@vap/core": "0.0.12",
